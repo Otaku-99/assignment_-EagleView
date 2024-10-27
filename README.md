@@ -1,6 +1,7 @@
 This project processes .jpg or .png images by creating binary mask images where all color channels exceed a threshold (200 for 8-bit images). Masks are saved as lossless .png files, and the total count of "max" (white) pixels across all masks is logged.
 
 **Requirements**
+
 Python 3.x
 Libraries: opencv-python, numpy
 Install dependencies:
